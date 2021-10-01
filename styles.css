@@ -55,3 +55,37 @@ a {
 .tt-header-line {
   border-bottom: 2px solid #bfcdcc;
 }
+
+.tt-content-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  width: fit-content;
+}
+
+.tt-content-1-text h2 {
+  font-size: 0.8em;
+  color: #98a8a4;
+}
+
+.tt-content-1-text {
+  padding-top: 30%;
+  order: 2;
+}
+
+.tt-content-1-img {
+  border-radius: 30px;
+  order: 1;
+  padding-right: 20px;
+  width: fit-content;
+}
+
+.tt-container-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
