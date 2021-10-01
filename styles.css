@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f3ede6;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tt-header {
+}
+
+.tt-header li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.tt-header nav {
+  display: grid;
+  justify-content: end;
+  margin-top: 20px;
+  margin-right: 60px;
+  font-size: 2.1rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a {
+  color: #648181;
+}
+
+.tt-header-line {
+  border-bottom: 2px solid #bfcdcc;
+}
