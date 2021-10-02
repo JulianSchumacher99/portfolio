@@ -97,12 +97,16 @@ a {
 
 .tt-container-2 {
   background: #faf8f6;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .tt-container-title {
   text-align: center;
   font-size: 1.7rem;
   color: #648181;
+  margin-bottom: 0.7em;
+  letter-spacing: 0.1em;
 }
 
 .tt-container-2-grid {
@@ -118,15 +122,52 @@ a {
 
 .tt-container-2 h3 {
   color: #98a8a4;
+  text-align: center;
 }
 
 .tt-content-3-work-1 {
-  width: 33%;
+}
+
+.tt-content-3-work-1 p {
+  color: #648181;
+  text-align: center;
+  padding: 2px;
+  font-weight: 500;
+}
+
+.tt-content-3-work-1 img {
 }
 
 .tt-content-3-work-2 {
-  width: 33%;
 }
+.tt-content-3-work-2 p {
+  color: #648181;
+  text-align: center;
+  padding: 2px;
+  font-weight: 500;
+}
+
 .tt-content-3-work-3 {
-  width: 33%;
+}
+.tt-content-3-work-3 p {
+  color: #648181;
+  text-align: center;
+  padding: 2px;
+  font-weight: 500;
+}
+
+.svg-filter {
+  filter: invert(54%) sepia(22%) saturate(341%) hue-rotate(131deg)
+    brightness(85%) contrast(87%);
+}
+
+.tt-company {
+  color: #98a8a4 !important;
+}
+
+.tt-topic {
+  font-weight: 800 !important;
+  text-underline-position: below;
+  text-decoration-color: #bfcdcc;
+  text-decoration: underline;
 }
