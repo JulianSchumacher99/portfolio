@@ -15,9 +15,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.tt-header {
-}
-
 .tt-header li {
   display: inline-block;
   margin: 10px;
@@ -117,46 +114,20 @@ a {
   grid-template-rows: 1fr;
 }
 
-.tt-container-2-grid h3 {
-}
-
 .tt-container-2 h3 {
   color: #98a8a4;
   text-align: center;
 }
 
-.tt-content-3-work-1 {
-  text-align: center;
-}
-
-.tt-content-3-work-1 p {
+.tt-content-3-work p {
   color: #648181;
   text-align: center;
   padding: 2px;
   font-weight: 500;
 }
 
-.tt-content-3-work-1 img {
-}
-
-.tt-content-3-work-2 {
+.tt-content-3-work {
   text-align: center;
-}
-.tt-content-3-work-2 p {
-  color: #648181;
-  text-align: center;
-  padding: 2px;
-  font-weight: 500;
-}
-
-.tt-content-3-work-3 {
-  text-align: center;
-}
-.tt-content-3-work-3 p {
-  color: #648181;
-  text-align: center;
-  padding: 2px;
-  font-weight: 500;
 }
 
 .svg-filter {
@@ -187,4 +158,10 @@ a {
   padding: 3px;
   text-align: center;
   display: grid;
+}
+
+.tt-social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
 }
