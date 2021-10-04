@@ -1,0 +1,190 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f3ede6;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.tt-header {
+}
+
+.tt-header li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.tt-header nav {
+  display: grid;
+  justify-content: end;
+  margin-top: 20px;
+  margin-right: 60px;
+  font-size: 2.1rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a {
+  color: #648181;
+}
+
+.tt-header-line {
+  border-bottom: 2px solid #bfcdcc;
+}
+
+.tt-content-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 40px;
+  background: #f3ede6;
+  border-radius: 10px;
+  padding: 5px;
+  width: fit-content;
+  color: #648181;
+}
+
+.tt-content-1-text h2 {
+  font-size: 0.8em;
+  color: #98a8a4;
+}
+
+.tt-content-1-text {
+  padding-top: 30%;
+  order: 2;
+}
+
+.tt-content-1-text a {
+  color: #648181;
+}
+
+.tt-content-1-img {
+  border-radius: 30px;
+  order: 1;
+  padding-right: 20px;
+  width: fit-content;
+}
+
+.tt-container-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.tt-container-2 {
+  background: #faf8f6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tt-container-title {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #648181;
+  margin-bottom: 0.7em;
+  letter-spacing: 0.1em;
+}
+
+.tt-container-2-grid {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.tt-container-2-grid h3 {
+}
+
+.tt-container-2 h3 {
+  color: #98a8a4;
+  text-align: center;
+}
+
+.tt-content-3-work-1 {
+  text-align: center;
+}
+
+.tt-content-3-work-1 p {
+  color: #648181;
+  text-align: center;
+  padding: 2px;
+  font-weight: 500;
+}
+
+.tt-content-3-work-1 img {
+}
+
+.tt-content-3-work-2 {
+  text-align: center;
+}
+.tt-content-3-work-2 p {
+  color: #648181;
+  text-align: center;
+  padding: 2px;
+  font-weight: 500;
+}
+
+.tt-content-3-work-3 {
+  text-align: center;
+}
+.tt-content-3-work-3 p {
+  color: #648181;
+  text-align: center;
+  padding: 2px;
+  font-weight: 500;
+}
+
+.svg-filter {
+  filter: invert(54%) sepia(22%) saturate(341%) hue-rotate(131deg)
+    brightness(85%) contrast(87%);
+}
+
+.tt-company {
+  color: #98a8a4 !important;
+}
+
+.tt-topic {
+  font-weight: 800 !important;
+  text-underline-position: below;
+  text-decoration-color: #bfcdcc;
+  text-decoration: underline;
+}
+
+.tt-contact-title {
+  text-align: center;
+  color: #98a8a4;
+  margin-top: 3rem;
+}
+
+.tt-content-2-Social {
+  margin-top: 1rem;
+  color: #648181;
+  padding: 3px;
+  text-align: center;
+  display: grid;
+}
