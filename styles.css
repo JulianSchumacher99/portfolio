@@ -11,8 +11,8 @@ body {
 }
 
 html {
-  font-size: 16px;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .tt-header {
@@ -126,6 +126,7 @@ a {
 }
 
 .tt-content-3-work-1 {
+  text-align: center;
 }
 
 .tt-content-3-work-1 p {
@@ -139,6 +140,7 @@ a {
 }
 
 .tt-content-3-work-2 {
+  text-align: center;
 }
 .tt-content-3-work-2 p {
   color: #648181;
@@ -148,6 +150,7 @@ a {
 }
 
 .tt-content-3-work-3 {
+  text-align: center;
 }
 .tt-content-3-work-3 p {
   color: #648181;
@@ -170,4 +173,18 @@ a {
   text-underline-position: below;
   text-decoration-color: #bfcdcc;
   text-decoration: underline;
+}
+
+.tt-contact-title {
+  text-align: center;
+  color: #98a8a4;
+  margin-top: 3rem;
+}
+
+.tt-content-2-Social {
+  margin-top: 1rem;
+  color: #648181;
+  padding: 3px;
+  text-align: center;
+  display: grid;
 }
